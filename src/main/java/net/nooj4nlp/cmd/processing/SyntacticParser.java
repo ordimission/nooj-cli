@@ -36,7 +36,7 @@ public final class SyntacticParser implements NtextProcessor {
 		
 		boolean success = false;
 		try {
-			success = engine.applyAllGrammars(null,
+			success = engine.applyAllGrammars(
 					nText,
 					nText.annotations,
 					startingPoint,

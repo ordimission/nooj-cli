@@ -21,7 +21,7 @@ public final class LexicalAnalyzer implements NtextProcessor {
 		RefObject<String> errorMessage = new RefObject<>("");
 		
 		nText.hUnknowns = new HashMap<>();
-		boolean success = engine.tokenize(null,
+		boolean success = engine.tokenize(
 				nText,
 				nText.annotations,
 				new HashMap<String, ArrayList<String>>(), 

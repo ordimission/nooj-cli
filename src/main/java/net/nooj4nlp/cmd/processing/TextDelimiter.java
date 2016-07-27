@@ -43,7 +43,7 @@ public final class TextDelimiter implements NtextProcessor {
 
 	private String delimitXml(Ntext nText) {
 		if (nText.mft == null) {
-			return engine.delimitXmlTextUnitsAndImportXmlTags(null, nText);
+			return engine.delimitTextUnits(nText);
 		}
 		
 		return "";
