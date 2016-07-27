@@ -10,6 +10,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import com.google.common.collect.Lists;
+import org.junit.Ignore;
 
 public class CharVariantsTest extends NoojTest {
 	private static final Language FRENCH = new Language("fr");
@@ -25,6 +26,7 @@ public class CharVariantsTest extends NoojTest {
 	}
 
 	@Test
+        @Ignore
 	public void loadsCharvariantsIntoLanguage() {
 		Assert.assertEquals(FRENCH_VARIANTS, getEngine().Lan.chartable);
 	}
