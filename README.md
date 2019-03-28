@@ -1,4 +1,4 @@
-nooj-cmd
+nooj-cli
 ========
 
 Command line interface for nooj4nlp
